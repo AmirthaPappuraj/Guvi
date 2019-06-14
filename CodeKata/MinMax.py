@@ -1,3 +1,3 @@
-n=int(input())
-l=list(map(int,input().split()))
-print(min(l),max(l))
+num=int(input())
+a=list(map(int,input().split()))
+print(min(a),max(a))
