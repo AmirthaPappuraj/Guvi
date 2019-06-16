@@ -3,9 +3,9 @@ def iso(a):
   l=[]
   for i in c:
     if i in l:
-      return 'no'
+      return 'No'
     l.append(i)
-  return 'yes'
+  return 'Yes'
 
 char=input()
 res=iso(char)
