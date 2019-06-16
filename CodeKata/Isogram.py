@@ -1,10 +1,11 @@
 def iso(a):
-  if(type(a)==str):
-    for i in a:
-      if a.count(i)>1 or a=='':
-        return('no')
-      else:
-        return('yes')
+  c=a.lower()
+  l=[]
+  for i in c:
+    if i in l:
+      return 'no'
+    l.append(i)
+  return 'yes'
 
 char=input()
 res=iso(char)
