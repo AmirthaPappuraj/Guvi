@@ -1,2 +1,3 @@
-char=input()
-print(ord(char))
+text=str(input())
+ascii=ord(text)
+print(ascii)
