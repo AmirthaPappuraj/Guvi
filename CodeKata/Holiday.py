@@ -12,6 +12,6 @@ elif(day=='Thursday'):
 elif(day=='Friday'):
   print('no')
 elif(day=='Saturday'):
-  print('no')
+  print('yes')
 else:
   exit()
