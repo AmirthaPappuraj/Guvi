@@ -1,2 +1,2 @@
-n = int(input())
-print(int((n//2)+1))
+num = int(input())
+print((num//2)+1)
