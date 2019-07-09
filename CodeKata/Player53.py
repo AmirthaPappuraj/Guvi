@@ -1,5 +1,5 @@
-a=input()
-c=0
-for i in a:
-  c=c+1
-print(c)
+string=input()
+cou=0
+for i in string:
+  cou=cou+1
+print(cou)
