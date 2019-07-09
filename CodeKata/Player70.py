@@ -1,2 +1,2 @@
-a=input()
-print(a,"Answer")
+txt=str(input())
+print(txt,"Answer")
