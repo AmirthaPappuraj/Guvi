@@ -4,4 +4,5 @@ b=list(map(int,input().split()))
 a=set(a)
 b=set(b)
 if(a & b):
-  print(*(a & b),sep=' ')
+  c=sorted(a&b)
+  print(*c,sep=' ')
