@@ -1,2 +1,3 @@
-n=int(input())
-print(~n)
+N=int(input())
+N=~N
+print(N)
