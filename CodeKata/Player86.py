@@ -1,0 +1,9 @@
+n=int(input())
+if(n==2):
+  a,b=map(int,input().split())
+  c=a^b
+  print(c)
+elif(n==3):
+  a,b,c=map(int,input().split())
+  d=a^b^c
+  print(d)
